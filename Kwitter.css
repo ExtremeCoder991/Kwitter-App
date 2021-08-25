@@ -34,6 +34,7 @@ body {
     border-radius: 30px;
     border-color: cornflowerblue;
     border-width: 10px;
+    color: black;
 }
 
 #room_name {
