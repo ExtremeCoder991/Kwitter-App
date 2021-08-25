@@ -1,33 +1,51 @@
-body
-{
+body {
     background-image: url("https://wallpapercave.com/wp/aD6Hiwe.jpg");
     background-position: center;
     font-family: fantasy;
     color: rgb(240, 237, 227);
+}
+
+.container {
     text-align: center;
 }
 
-.container
-{
-    text-align: center;
-}
-
-#logo
-{
+#logo {
     border: black;
     border-width: 5px;
     border-radius: 25px;
 }
 
-#login-button
-{
-    font-size: 75px;
+#login-button {
+    font-size: 15px;
 }
 
-#user_name
-{
+
+#logout-button {
+    font-size: 15px;
+    float: left;
+}
+
+#add_room_button {
+    font-size: 15px;
+}
+
+#user_name {
     width: 300px;
     border-radius: 30px;
     border-color: cornflowerblue;
     border-width: 10px;
+}
+
+#room_name {
+    width: 300px;
+    border-radius: 30px;
+    border-color: cornflowerblue;
+    border-width: 10px;
+}
+
+#output {
+    padding: 10px;
+    width: 80%;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
 }

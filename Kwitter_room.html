@@ -1,6 +1,7 @@
 <html>
 
 <head>
+    <title>Kwitter Room</title>
     <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -14,25 +15,22 @@
 
     <link rel="stylesheet" type="text/css" href="Kwitter.css">
     <script src="Kwitter.js"></script>
+    <script src="Kwitter_room.js"></script>
 
 </head>
 
 <body>
+    <button id="logout_button" class="glyphicon glyphicon-log-out btn btn-primary" onclick="logout()"> LOGOUT</button>
+    <center>
+        <h3 id="user_name" class="color_white"></h3>
+        <input type="text" id="room_name" class="form-control" placeholder="#Room Name">
+        <br><br><br>
+        <button id="add_room_button" class="btn btn-primary" onclick="addroom()">Add
+            Room</button>
+        <br><br>
+        <div id="output"></div>
 
-    <div class="container">
-
-        <br>
-        <img id="logo" height="150px" width="150px" src="https://shravaripatil.github.io/kwitter/logo.png">
-        <h1>Welcome to Kwitter</h1>
-        <h3>Find out what's happening in the world right now!</h3>
-        <br>
-        <h4>Join Today</h4>
-        <input type="text" id="user_name" placeholder="User Name:">
-        <br>
-        <br>
-        <button id="login_button" class="btn btn-primary" onclick="addUser()">LOG IN</button>
-    </div>
-
+    </center>
 </body>
 
 </html>
