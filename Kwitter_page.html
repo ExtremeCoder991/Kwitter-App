@@ -13,10 +13,20 @@
     <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
 
     <link rel="stylesheet" type="text/css" href="Kwitter.css">
-    <script src="Kwitter.js"></script>
+    <script src="Kwitter_page.js"></script>
 </head>
 
 <body>
+    <button id="logout_button" class="glyphicon glyphicon-log-out btn btn-primary" onclick="logout()"> LOGOUT</button>
+    <center>
+        <h1>Kwitter</h1>
+        <img id="logo" height="150px" width="150px" src="https://shravaripatil.github.io/kwitter/logo.png">
+        <div class="input_div_message_page">
+            <br><br>
+            <input type="text" id="msg" class="form-control" placeholder="Message">
+            <br><br>
+            <button onclick="send()" class="btn btn-success">Send</button> </div>
+    </center>
 
 </body>
 

@@ -25,13 +25,21 @@ body {
     float: left;
 }
 
+#msg {
+    width: 300px;
+    border-radius: 5px;
+    border-color: cornflowerblue;
+    border-width: 10px;
+    color: black;
+}
+
 #add_room_button {
     font-size: 15px;
 }
 
 #user_name {
     width: 300px;
-    border-radius: 30px;
+    border-radius: 5px;
     border-color: cornflowerblue;
     border-width: 10px;
     color: black;
@@ -39,9 +47,9 @@ body {
 
 #room_name {
     width: 300px;
-    border-radius: 30px;
+    border-radius: 10px;
     border-color: cornflowerblue;
-    border-width: 10px;
+    border-width: 5px;
 }
 
 #output {
